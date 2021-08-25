@@ -36,18 +36,19 @@ nav a{
     height: 700px;
     width: 1200px;
     margin-left: 100px;
-    padding: 350px 0 ;
+  position: relative;
+  bottom: 20px;
     
     
     }
     #mission h2 , #mission h4 {
         background-color: black;
+        position: relative;
+        top: 350px;
     }
-    #mission h4{
-        position:relative;
-        bottom: 30px;
-        display: flex;
-        justify-content: center;
+    #mission h4 {
+        position: relative;
+        top: 320px;
         padding-top: 10px;
         padding-bottom: 10px;
     }
