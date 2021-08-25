@@ -31,5 +31,26 @@ nav a{
     text-decoration: underline;
 }
 
-
+#mission{
+    background-image: url('/Resources/img-mission-background.webp');
+    height: 700px;
+    width: 1200px;
+    margin-left: 100px;
+    padding: 350px 0 ;
+    
+    
+    }
+    #mission h2 , #mission h4 {
+        background-color: black;
+    }
+    #mission h4{
+        position:relative;
+        bottom: 30px;
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    
  
