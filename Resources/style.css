@@ -35,7 +35,7 @@ nav a{
     background-image: url('/Resources/img-mission-background.webp');
     height: 700px;
     width: 1200px;
-    margin-left: 100px;
+    margin-left: 20%;
   position: relative;
   bottom: 20px;
     
@@ -60,6 +60,7 @@ nav a{
        justify-content: center;
        margin: 0 200px;
     }
+  
     #featured img
 {
     width: 300px;
@@ -71,7 +72,44 @@ nav a{
     justify-content: center;
 }
 #featured img{
-    border: thistle 1px solid;
     margin-bottom: 10px;
 }
- 
+ #locations{
+     background-image: url('/Resources/img-locations-background.webp');
+     background-position: center;
+     height: 500px;
+     width: 1200px;
+    margin-left: 20%;
+
+   
+ }
+ #locations h2 {
+   
+   position: relative;
+   top: 70px
+ }
+ #loc{
+     
+     display: flex;
+     justify-content: space-around;
+     margin-top: 100px;
+}
+#loc-1, #loc-2,#loc-3{
+    background-color: rgba(0, 0,0, 0.9);
+}
+#loc-1{
+    padding: 0px 50px;
+}
+#loc-2{
+    padding: 0 20px;
+}
+#loc-3{
+    padding: 0 20px;
+}
+#contact{
+      height: 200px;
+}
+footer{
+    text-align: left;
+    margin-left: 20px;
+}
