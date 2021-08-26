@@ -8,20 +8,20 @@ html{
 
 }
 header{
-    padding-bottom: 75px;
-    border-bottom: 1px solid seashell;
+    padding-bottom: 3.4rem;
+    border-bottom: .04rem solid seashell;
 }
 
 #logo{
     display: flex;
     justify-content: flex-start;
-    margin: 10px;
+    margin: .45rem;
     position: absolute;
 }
 nav {
     display: flex;
     justify-content: flex-end;
-    padding-top: 30px;
+    padding-top: 1.4rem;
     padding-left: 60%;
     justify-content: space-around;
 }
@@ -33,38 +33,40 @@ nav a{
 
 #mission{
     background-image: url('/Resources/img-mission-background.webp');
-    height: 700px;
-    width: 1200px;
-    margin-left: 20%;
-  position: relative;
-  bottom: 20px;
-    
-    
+    height: 31.8rem;
+    width: 80%;
+   position: relative;
+   bottom: 0.9rem;
+   margin-left: 10%;
+   margin-right: 10%;
+   background-position: center;
+   background-size: cover;
+
     }
     #mission h2 , #mission h4 {
         background-color: black;
         position: relative;
-        top: 350px;
+        top: 15.9rem;
     }
     #mission h4 {
         position: relative;
-        top: 320px;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        top: 14.5rem;
+        padding-top: 0.45rem;
+        padding-bottom: 0.45rem;
     }
     #featured h2 , #featured h4{
        /*border: springgreen 1px solid;*/
        position: relative;
-       right: 25px;
+       right: 1.14rem;
        display: flex;
        justify-content: center;
-       margin: 0 200px;
+       margin: 0 9rem;
     }
   
     #featured img
 {
-    width: 300px;
-    height: 200px;
+    width: 13.6rem;
+    height: 9rem;
 }    
     #tea-pics{
      display: flex;
@@ -72,44 +74,46 @@ nav a{
     justify-content: center;
 }
 #featured img{
-    margin-bottom: 10px;
+    margin-bottom: .45rem;
 }
  #locations{
      background-image: url('/Resources/img-locations-background.webp');
      background-position: center;
-     height: 500px;
-     width: 1200px;
-    margin-left: 20%;
+     height: 22.7rem;
+     width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-size: cover;
 
    
  }
  #locations h2 {
    
    position: relative;
-   top: 70px
+   top: 3.2rem;
  }
  #loc{
      
      display: flex;
      justify-content: space-around;
-     margin-top: 100px;
+     margin-top: 4.5rem;
 }
 #loc-1, #loc-2,#loc-3{
     background-color: rgba(0, 0,0, 0.9);
 }
 #loc-1{
-    padding: 0px 50px;
+    padding: 0 2.3rem;
 }
 #loc-2{
-    padding: 0 20px;
+    padding: 0 0.9rem;
 }
 #loc-3{
-    padding: 0 20px;
+    padding: 0 0.9rem;
 }
 #contact{
-      height: 200px;
+      height: 9rem;
 }
 footer{
     text-align: left;
-    margin-left: 20px;
+    margin-left: 0.9rem;
 }
