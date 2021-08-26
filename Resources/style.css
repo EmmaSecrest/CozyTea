@@ -52,6 +52,24 @@ nav a{
         padding-top: 10px;
         padding-bottom: 10px;
     }
-    
-    
+    #featured h2 , #featured h4{
+       /*border: springgreen 1px solid;*/
+       position: relative;
+       right: 25px;
+       display: flex;
+       justify-content: center;
+       margin: 0 200px;
+    }
+    #featured img
+{
+    width: 300px;
+    height: 200px;
+}    
+
+
+#tea-pics{
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
  
